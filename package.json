@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/iter-fill",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Create an iterator which replaces all values from a provided iterator from a start index to an end index with a static value.",
   "license": "Apache-2.0",
   "author": {
