@@ -1,5 +1,0 @@
-"use strict";var E=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var p=E(function(I,d){
-var f=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),m=require('@stdlib/assert-is-nonnegative-integer/dist').isPrimitive,x=require('@stdlib/assert-is-function/dist'),F=require('@stdlib/assert-is-iterator-like/dist'),o=require('@stdlib/symbol-iterator/dist'),g=require('@stdlib/error-tools-fmtprodmsg/dist'),N=0,c=1e308;function h(e,r,s,v){var n,l,a,i,u;if(!F(e))throw new TypeError(g('0Ot46',e));if(arguments.length>2){if(!m(s))throw new TypeError(g('0Ot2m',s));if(a=s,arguments.length>3){if(!m(v))throw new TypeError(g('0Ot30',v));i=v}else i=c}else{if(arguments.length<2)throw new Error(g('0Ot0J'));a=N,i=c}return n={},f(n,"next",w),f(n,"return",q),o&&x(e[o])&&f(n,o,y),u=-1,n;function w(){var t;return l?{done:!0}:(t=e.next(),u+=1,t.done?(l=!0,t):{value:u>=a&&u<i?r:t.value,done:!1})}function q(t){return l=!0,arguments.length?{value:t,done:!0}:{done:!0}}function y(){return h(e[o](),r,a,i)}}d.exports=h
-});var b=p();module.exports=b;
-/** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
