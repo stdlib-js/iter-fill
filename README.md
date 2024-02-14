@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterFill from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-fill@deno/mod.js';
+import iterFill from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-fill@v0.2.0-deno/mod.js';
 ```
 
 #### iterFill( iterator, value\[, begin\[, end]] )
@@ -181,7 +181,7 @@ var bool = it.next().done;
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@deno/mod.js';
-import iterFill from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-fill@deno/mod.js';
+import iterFill from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-fill@v0.2.0-deno/mod.js';
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = randu({
