@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterFill from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-fill@esm/index.mjs';
+import iterFill from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-fill@v0.2.3-esm/index.mjs';
 ```
 
 #### iterFill( iterator, value\[, begin\[, end]] )
@@ -186,7 +186,7 @@ var bool = it.next().done;
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@esm/index.mjs';
-import iterFill from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-fill@esm/index.mjs';
+import iterFill from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-fill@v0.2.3-esm/index.mjs';
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = randu({
